@@ -555,6 +555,7 @@ GameObject:
   - component: {fileID: 1463332029}
   - component: {fileID: 1463332028}
   - component: {fileID: 1463332027}
+  - component: {fileID: 1463332032}
   m_Layer: 0
   m_Name: Platform
   m_TagString: Untagged
@@ -647,6 +648,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1463332032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1463332026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57211e749a3a9468c9086e8f1ce5c5de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ball: {fileID: 1510681244}
 --- !u!1 &1510681244
 GameObject:
   m_ObjectHideFlags: 0
@@ -659,6 +672,7 @@ GameObject:
   - component: {fileID: 1510681246}
   - component: {fileID: 1510681245}
   - component: {fileID: 1510681249}
+  - component: {fileID: 1510681250}
   m_Layer: 0
   m_Name: Ball
   m_TagString: Untagged
@@ -747,6 +761,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1510681250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1510681244}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3fbec14c0ab6463a82b5ec47deaf6f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dropped: 0
 --- !u!1 &1557689879
 GameObject:
   m_ObjectHideFlags: 0
